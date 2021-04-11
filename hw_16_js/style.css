@@ -1,0 +1,18 @@
+.hide{
+    display: none !important;
+}
+.forms{
+    height: 100vh;
+    position: relative;
+}
+.active{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.active1{
+    position: absolute;
+    top: 40%;
+    left: 0;
+ 
+}
