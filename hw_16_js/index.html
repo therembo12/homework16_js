@@ -15,29 +15,31 @@
   </head>
   <body>
       <div class="container forms">
-          <div class="row justify-content-center active " id="loginFormDiv">
-            <form class="d-flex flex-column col-12 " action="" id="loginForm">
-                <label for="login">Login</label>
-                <input type="text" name="login" id="login">
-                <label for="password">Password</label>
-                <input type="text" name="password" id="password">
-                <button class="btn btn-primary mt-2" id="loginButton" name="loginButton">Log in</button>
-                <button class="btn btn-primary mt-2">Sign in</button>        
+          <div class="row justify-content-center align-items-center " id="loginFormDiv">
+            <form class="d-flex row col-6" action="" id="loginForm" name="loginForm">
+                <label class="col-4 mt-2" for="login">Login</label>
+                <input class="col-8 mt-2" type="text" name="login" id="login">
+                <label class="col-4 mt-2" for="password">Password</label>
+                <input class="col-8 mt-2" type="text" name="password" id="password">
+                <div class="row col-12 justify-content-around">
+                  <a href="./page1.html" class="btn btn-primary mt-2 col-5" id="loginButton">Log in</a>
+                  <button class="btn btn-primary mt-2 col-5" id="loginSignButton" name="loginSignButton">Sign in</button>        
+                </div>
             </form>        
           </div>
-          <div class="row justify-content-center hide" id="regFormDiv">
-            <form class="d-flex row col-4" action="" id="regForm">
+          <div class="row justify-content-center align-items-center hide" id="regFormDiv">
+            <form class="d-flex row col-6" action="" id="regForm" name="regForm">
                 <label class="col-3 mt-2" for="name">Name</label>
-                <input class="col-9 mt-2" type="text" name="name" id="name">
+                <input class="col-9 mt-2" type="text" name="regName" id="regName">
                 <label class="col-3 mt-2" for="email">Email</label>
-                <input class="col-9 mt-2" type="email" name="email" id="email">
+                <input class="col-9 mt-2" type="email" name="email" id="regEmail">
                 <label class="col-3 mt-2" for="regLogin">Login</label>
                 <input class="col-9 mt-2" type="text" name="regLogin" id="regLogin">
                 <label class="col-3 mt-2" for="regPassword">Password</label>
                 <input class="col-9 mt-2" type="text" name="regPassword" id="regPassword">
                 <div class="row col-12  justify-content-between">
-                    <button class="btn btn-primary mt-2 col-5" id="regButton">Log in</button>
-                    <button class="btn btn-primary mt-2 col-5">Sign in</button>        
+                    <a href="./page1.html" class="btn btn-primary mt-2 col-5" id="regButton" name="regButton">Log in</a>
+                    <button class="btn btn-primary mt-2 col-5" id="signRegButton" name="signRegButton">Sign up</button>        
     
                 </div>
             </form>        

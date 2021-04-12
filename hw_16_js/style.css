@@ -6,13 +6,95 @@
     position: relative;
 }
 .active{
-    position: absolute;
+    position: absolute !important;
     top: 40%;
     left: 50%;
 }
-.active1{
+#loginFormDiv{
+    position: absolute ;
+    top: 179px ;
+    left: 65px ;
+}
+#regFormDiv{
+    position: absolute ;
+    top: 100px ;
+    left: 0 ;
+  
+}
+#loginLink{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+
+
+/* Page 1 CSS */
+.bfg{
+    height: 100px;
+    background-color: rgb(194, 194, 194);
+}
+#round{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+    cursor: pointer;
+}
+#roundL{
     position: absolute;
-    top: 40%;
+    top: 12%;
+    left: 23%;
+    font-size: 50px;
+}
+.word{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 25px;
+    color: purple;
+}
+#overlay{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    z-index: 999 !important;
+    position: absolute;
+    top: 0;
     left: 0;
- 
+    z-index: 1;
+    opacity: 0.8;
+}
+#overlay span{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    z-index: 999;
+    border: 1px solid black;
+    padding: 2px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.6s;
+
+}
+#overlay span:hover{
+    background-color: white;
+    transition: 0.6s;
+}
+#resultForm{
+    width: 500px;
+    background-color: rgb(105, 186, 211);
+    border-radius: 3%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    padding-bottom: 25px;
+}
+.unputs{
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 3%;
+    background-color: white;
+
 }
