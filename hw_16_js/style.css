@@ -15,6 +15,17 @@
     top: 179px ;
     left: 65px ;
 }
+#loginForm{
+    background-color: whitesmoke;
+    padding-bottom: 15px;
+    border-radius: 3px;
+}
+#regForm{
+    background-color: whitesmoke;
+    padding-bottom: 15px;
+    border-radius: 3px;
+
+}
 #regFormDiv{
     position: absolute ;
     top: 100px ;
@@ -47,7 +58,7 @@
     left: 23%;
     font-size: 50px;
 }
-.word{
+#word{
     font-size: 25px;
     margin-top: 15px;
     margin-right: 25px;
@@ -64,6 +75,7 @@
     left: 0;
     z-index: 1;
     opacity: 0.8;
+    display: none;
 }
 #overlay span{
     position: absolute;
@@ -97,4 +109,7 @@
     border-radius: 3%;
     background-color: white;
 
+}
+.show{
+    display: block !important;
 }
